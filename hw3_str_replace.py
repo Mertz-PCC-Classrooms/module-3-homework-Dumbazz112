@@ -35,7 +35,14 @@ code to fulfill this assignemnt.
 
 def str_replace():
     # START: your code here
-    pass
+    str_replace = input("Please enter a message or phrase: ")
+    print(str_replace)
+    word_error = input("Please enther the substring you wish to replace: ")
+    print(word_error)
+    word_replace = input("please enther the substring you wish to replace it with: ")
+    print(word_replace)
+    new_message = str_replace.replace(word_error, word_replace)
+    print(new_message)
     # END: your code here
 
 if __name__ == "__main__":
