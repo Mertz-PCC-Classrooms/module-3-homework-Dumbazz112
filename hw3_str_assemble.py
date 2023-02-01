@@ -52,7 +52,8 @@ def str_concat():
     message = input("Please enter a Message: ")
     print(message)
     print(f'[{date}]: ({status}) {message}')
-    
+    str_concat = (f'[{date}]: ({status}) {message}')
+    print(str_concat)
     
 
     # END: your code here
