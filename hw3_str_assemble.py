@@ -43,18 +43,19 @@ your code to fulfill the requirements for this assignment.
     by the sure entered message.
 """
 
-def str_str_assemble():
+def str_concat():
     # START: your code here
     date = input("Enter Date & Time: ")
     print(date)
-    Status = input("Please Enter a Status: ")
-    print(Status)
+    status = input("Please Enter a Status: ")
+    print(status)
     message = input("Please enter a Message: ")
     print(message)
-    print(f'[{date}]: - ({Status}) - {message}')
+    print(f'[{date}]: ({status}) {message}')
+    
     
 
     # END: your code here
 
 if __name__ == "__main__":
-    str_str_assemble()
+    str_concat()
