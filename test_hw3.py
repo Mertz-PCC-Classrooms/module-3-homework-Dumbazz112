@@ -5,7 +5,7 @@ from io import StringIO
 from random import sample, randint
 
 from hw3_str_len import str_len
-from hw3_str_assemble import str_assemble
+from hw3_str_assemble import str_concat
 from hw3_str_replace import str_replace
 
 class TestHw3(unittest.TestCase):
