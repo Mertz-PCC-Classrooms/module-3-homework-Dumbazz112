@@ -45,7 +45,17 @@ your code to fulfill the requirements for this assignment.
 
 def str_assemble():
     # START: your code here
-    pass
+    date = input("Enter Date & Time: ")
+    print(date)
+    status = input("Please Enter a Status: ")
+    print(status)
+    message = input("Please enter a Message: ")
+    print(message)
+    print(f'[{date}]: ({status}) {message}')
+    str_assemble_full = (f'[{date}]: ({status}) {message}')
+    print(str_assemble_full)
+    
+
     # END: your code here
 
 if __name__ == "__main__":

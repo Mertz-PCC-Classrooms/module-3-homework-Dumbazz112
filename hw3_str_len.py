@@ -25,7 +25,11 @@ your code to fulfill the requirements for this assignment.
 
 def str_len():
     # START: your code here
-    pass
+    str_len = input("Please enter your string: ")
+    print(str_len)
+    message_length = len(str_len)
+    #print(length)
+    print("Your sting is " + str(message_length) + " characters long!")
     # END: your code here
 
 if __name__ == "__main__":
